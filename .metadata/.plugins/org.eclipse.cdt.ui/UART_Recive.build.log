@@ -1,0 +1,23 @@
+20:02:27 **** Incremental Build of configuration Debug for project UART_Recive ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UART_Recive.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/oem/Embedded C/stm32cubeide_1.11.0/UART_Recive/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Recive.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_Recive.elf
+ 
+arm-none-eabi-size   UART_Recive.elf 
+arm-none-eabi-objdump -h -S  UART_Recive.elf  > "UART_Recive.list"
+arm-none-eabi-objcopy  -O ihex  UART_Recive.elf  "UART_Recive.hex"
+arm-none-eabi-objcopy  -O binary  UART_Recive.elf  "UART_Recive.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11600	    120	   1672	  13392	   3450	UART_Recive.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_Recive.hex
+Finished building: UART_Recive.bin
+ 
+ 
+Finished building: UART_Recive.list
+ 
+
+20:02:28 Build Finished. 0 errors, 0 warnings. (took 991ms)
+
