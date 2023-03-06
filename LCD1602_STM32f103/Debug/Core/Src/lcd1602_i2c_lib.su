@@ -1,0 +1,9 @@
+../Core/Src/lcd1602_i2c_lib.c:13:6:WriteByteI2CLCD	24	static
+../Core/Src/lcd1602_i2c_lib.c:28:22:DelayMicro	16	static
+../Core/Src/lcd1602_i2c_lib.c:34:6:sendhalfbyte	16	static
+../Core/Src/lcd1602_i2c_lib.c:43:6:sendbyte	24	static
+../Core/Src/lcd1602_i2c_lib.c:53:6:LCD_Clear	8	static
+../Core/Src/lcd1602_i2c_lib.c:60:6:LCD_SendChar	16	static
+../Core/Src/lcd1602_i2c_lib.c:67:6:LCD_SetPos	16	static
+../Core/Src/lcd1602_i2c_lib.c:84:6:LCD_init	8	static
+../Core/Src/lcd1602_i2c_lib.c:110:6:LCD_String	24	static

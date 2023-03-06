@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LCD1602_DTH11,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LCD_1602 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TIM_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bluePill Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UARTRx_EXO,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart3,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_Recive Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bluePill Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_Recive Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:uart3,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TIM_test Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LCD1602_DTH11/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LCD1602_DTH11/activeLaunchTarget=null\:---
